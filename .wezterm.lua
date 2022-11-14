@@ -1,10 +1,10 @@
 local wezterm = require 'wezterm'
 return {
-  font = wezterm.font('JetBrains Mono', { weight = 'Bold' }),
+  font = wezterm.font('mononoki'),
   weight = 'Bold',
-  font_size = 13,
+  font_size = 14,
   harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' },
-  color_scheme = 'Rosé Pine (base16)',
+  color_scheme = 'Gruvbox Light',
   window_decorations = 'RESIZE', 
   hide_tab_bar_if_only_one_tab = true,
   adjust_window_size_when_changing_font_size = false, 
